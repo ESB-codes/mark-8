@@ -37,7 +37,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Flag Interpreter</h1>
-      <input onChange={changeEvent} style={{padding: "1rem"}}></input>
+      <input placeholder="paste the emoji" onChange={changeEvent} style={{padding: "1rem"}}></input>
       <h2>{meaning}</h2>
       {
         ourFlags.map(x=>{
